@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+  background-color: #d3e3eb;
+  color: #141618;
+  line-height: 1.5;
+  font-size: 16px;
+  /* width is going to be 100-1000 px */
+  width: 1100px;
+  /*  */
+  margin: 0 auto 0 auto;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+header {
+  text-align: center;
+  margin: 60px 0;
+}
+
+nav {
+  margin: 60px 0 0 0;
+}
+
+/* Apply styles to links */
+nav a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #141618;
+  /* Remove underline from links */
+  text-decoration: none;
+  /* Set to Uppercase */
+  text-transform: uppercase;
+  /* padding makes room on the inside of elements */
+  padding: 0 40px 0 40px;
+}
+
+nav a:hover {
+  color: #fac600
+}
+
+section {
+  background-color: white;
+  margin-bottom: 40px
+}
+
+h2 {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+h3 {
+  font-family: Montserrat, serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+footer a {
+  padding: 0 16px;
+}
+
+footer {
+  text-align: center;
+}
+
+div.post-content {
+  padding: 35px 240px;
+}
+
+/* This applies styles only to anchor tags inside div elements with a class of post-content */
+div.post-content a {
+  color: #141618;
+}
+
+div.post-content a:hover {
+  color: #fac600;
+}
+
+/* Apply a yellow hover state to only read more links */
+div.post-details {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ADADAD;
+  border-top: 2px solid #ADADAD;
+}
+
+/*  Contact page styles*/
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  /* make the label sit on top of the form fields */
+  display: block;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #b2b2b2;
+}
+
+input[type="email"], input[type="text"], textarea {
+  width: 100%;
+  border: 1px solid #b2b2b2;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 18px;
+  outline-color: red;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: red;
+  padding: 10px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+}
